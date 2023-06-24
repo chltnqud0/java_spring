@@ -7,3 +7,9 @@ org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUESTIONL" not found; SQL statem
 select * from questionl [42102-214]
 2023-06-22 16:11:21 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-24 21:07:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-24 21:33:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
+2023-06-24 21:33:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-214]
