@@ -3,6 +3,7 @@ package com.csb.myapp.answer;
 import java.time.LocalDateTime;
 
 import com.csb.myapp.question.Question;
+import com.csb.myapp.user.SiteUser;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -29,4 +30,7 @@ public class Answer {
 
     @ManyToOne
     private Question question;
+
+    @ManyToOne
+    private SiteUser author;
 }
