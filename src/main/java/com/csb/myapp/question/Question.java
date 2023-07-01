@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.csb.myapp.answer.Answer;
 
+import java.util.Set;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -39,4 +41,9 @@ public class Question {
 
     @ManyToOne
     private SiteUser author;
+
+    private LocalDateTime modifyDate;
+
+    @ManyToMany
+    Set<SiteUser> voter;
 }
